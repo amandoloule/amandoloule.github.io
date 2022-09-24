@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amando Lourenço</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html">&lt; Amando Lourenço &gt;</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./projetos.html">Projetos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <div class="vh-100 d-flex flex-column justify-content-center align-items-center">
+                <img class="rounded-circle shadow-lg" src="./media/foto-1.png" alt="">
+                <p class="fs-4 mt-3">Olá, sou Amando Lourenço</p>
+                <p class="fs-4 fw-bold mb-1">Faço aplicativos web e mobile</p>
+                <p class="mb-4">JavaScript, Node.js e React</p>
+                <a href="#contato">
+                    <button type="button" class="btn btn-dark">ENTRE EM CONTATO</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="sobre px-3 py-5">
+            <div class="row">
+                <div class="col-md-5 text-center">
+                    <img class="w-50" src="./media/foto-2.png" alt="">
+                </div>
+                <div class="col-md-7">
+                    <p class="fs-2 fw-bold">Sobre mim</p>
+                    <p>Sou um desenvolvedor JavaScript FullStack, com conhecimento de Node.js, MongoDB, Mongoose, React e Bootstrap.</p>
+                    <p>Atualmente estou estudando Python e Django, além de PowerShell, WSL, Linux e Bash.</p>
+                    <a href="./projetos.html">
+                        <button type="button" class="btn btn-dark">VER MEUS PROJETOS</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato py-5">
+            <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                <p class="fs-2 fw-bold">Entre em contato</p>
+                <ul class="d-flex flex-row list-unstyled">
+                    <li class="px-2 fs-4">
+                        <a href="https://www.linkedin.com/in/amandoloule" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 fs-4">
+                        <a href="https://github.com/amandoloule" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 fs-4">
+                        <a href="https://instagram.com/amandoloule" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 fs-4">
+                        <a href="https://www.facebook.com/amandoloule" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-4 pb-2">
+        <div class="container d-flex flex-wrap">
+            <p class="fs-4 fw-bold pe-4">Amando Lourenço</p>
+            <div class="d-flex flex-grow-1 justify-content-between align-items-center flex-wrap">
+                <ul class="d-flex list-unstyled">
+                    <li class="pe-2">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="px-2"><a href="./projetos.html">Projetos</a></li>
+                </ul>
+                <ul class="d-flex flex-row list-unstyled">
+                    <li class="px-2 fs-4">
+                        <a href="https://www.linkedin.com/in/amandoloule" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 fs-4">
+                        <a href="https://github.com/amandoloule" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 fs-4">
+                        <a href="https://instagram.com/amandoloule" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 fs-4">
+                        <a href="https://www.facebook.com/amandoloule" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
